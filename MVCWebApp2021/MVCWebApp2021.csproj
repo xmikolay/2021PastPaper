@@ -15,4 +15,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary2021\ClassLibrary2021.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary2021\ClassLibrary2021.csproj" />
+    <ProjectReference Include="..\MVCWebApp2021\MVCWebApp2021.csproj" />
+  </ItemGroup>
+
 </Project>
