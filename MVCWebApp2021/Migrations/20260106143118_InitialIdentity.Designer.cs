@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace MVCWebApp2021.Data.Migrations
+namespace MVCWebApp2021.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260106133316_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260106143118_InitialIdentity")]
+    partial class InitialIdentity
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
